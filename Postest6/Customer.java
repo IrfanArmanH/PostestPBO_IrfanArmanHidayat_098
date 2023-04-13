@@ -5,6 +5,13 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
+public interface menu{
+    public void menuCustomer();
+    public void menuAdmin();
+    
+}
+
+
 
 public class Customer extends Barang{
     private String nama;
