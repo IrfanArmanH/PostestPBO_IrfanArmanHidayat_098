@@ -46,7 +46,7 @@ class Login{
             
         }
     }
-    public void cek(String usnm,String pw){
+    public static void cek(String usnm,String pw){
         if (usnm.equals("admin") ){
             if(pw.equals("admin")){  
                 System.out.print("  Masukan Nama Admin : ");
@@ -78,7 +78,7 @@ class Login{
         System.out.println("No Hp User : "+noHP);
     }
     
-    public void validasi(String Username){
+    public static void validasi(String Username){
             System.out.println(" ->Menu Login");
         }  
 
